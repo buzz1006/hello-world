@@ -25,5 +25,9 @@
             <input path="$ComIbmMessageAssembly_EPIC_ADT/EPIC_ADT/EVN"/>
             <output path="$ComIbmMessageAssembly_EPIC_ADT1/EPIC_ADT/EVN"/>
         </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_EPIC_ADT/EPIC_ADT/PD1"/>
+            <output path="$ComIbmMessageAssembly_EPIC_ADT1/EPIC_ADT/PD1"/>
+        </move>
     </mappingDeclaration>
 </mappingRoot>

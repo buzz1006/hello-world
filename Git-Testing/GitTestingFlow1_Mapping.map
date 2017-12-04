@@ -21,5 +21,14 @@
             <input path="$ComIbmMessageAssembly_EPIC_ADT/EPIC_ADT/PID"/>
             <output path="$ComIbmMessageAssembly_EPIC_ADT1/EPIC_ADT/PID"/>
         </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_EPIC_ADT/EPIC_ADT/EVN"/>
+            <output path="$ComIbmMessageAssembly_EPIC_ADT1/EPIC_ADT/EVN"/>
+            <override>
+                <assign value="PROJECT1">
+                    <output path="$ComIbmMessageAssembly_EPIC_ADT1/EPIC_ADT/EVN/EVN.4.EventReasonCode/CWE.1.Identifier"/>
+                </assign>
+            </override>
+        </move>
     </mappingDeclaration>
 </mappingRoot>
